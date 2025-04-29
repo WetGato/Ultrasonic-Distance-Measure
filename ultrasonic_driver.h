@@ -13,10 +13,6 @@ class UltrasonicDriver {
   private:
     static constexpr uint8_t TRIG_PIN = 13;
     static constexpr uint8_t ECHO_PIN = 12;
-    static constexpr uint16_t MAX_DISTANCE = 200; //this can be set to 400-500
-    
-
-
 };
 
 #endif
